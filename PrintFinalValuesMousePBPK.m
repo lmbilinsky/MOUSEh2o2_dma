@@ -3,7 +3,7 @@ function PrintFinalValuesMousePBPK(Vplasmatotal, Vtissliver, Vcapliverplasma, M,
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PRINT OUT CONCENTRATIONS AND VELOCITIES AT FINAL TIME
 t=datestr(now); % today's date
-fid=fopen('SteadystateMousePBPK.txt','w');  %this opens a file and then the vector components are put in  it.
+fid=fopen('FinalState.txt','w');  %this opens a file and then the vector components are put in  it.
 fprintf(fid, '%s \n\n', t);
 
 
