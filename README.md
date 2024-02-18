@@ -1,0 +1,1 @@
+Update to the model: for increased realism, the per-cell death rate of hepatocytes is now 0 if the intracellular h2o2 concentration, [h2o2], is less than 1 micromolar. Otherwise, it is as described in the paper.
