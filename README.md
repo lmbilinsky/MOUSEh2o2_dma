@@ -1,6 +1,6 @@
 1. Update to the model: for increased realism, the per-cell death rate of hepatocytes is now 0 if the intracellular h2o2 concentration, [h2o2], is less than 1 micromolar. Otherwise, it is as described in the paper.
 
-2. To reproduce the in vivo arsenic simulations in ``A Computational Model of Endogenous Hydrogen Peroxide Metabolism in Hepatocytes, Featuring a Critical Role for GSH," run the Matlab script MOUSEh2o2_dma.m. All other .m files (which calculate reaction and transport velocities) in this repository are called by this master script and should be stored in the same directory/folder as it.
+2. To reproduce the in vivo arsenic simulations in ``A Computational Model of Endogenous Hydrogen Peroxide Metabolism in Hepatocytes, Featuring a Critical Role for GSH," run the Matlab script MOUSEh2o2_dma.m. All other .m files (which calculate reaction and transport velocities) in this repository are called by this master script and should be stored in the same directory/folder as it. The file FinalState.txt prints out the final concentrations and final reaction and transport velocities.
 
 3. If you are not interested in modeling the effects of ROS-generating xenobiotics, and just want access to the in vivo computational model of endogenous H2O2 metabolism in mouse liver, please see the repository MOUSEh2o2.
 
