@@ -102,5 +102,5 @@ fprintf(fid, ' \t\t\t\t\t TOTin=%4.2f   \n\n\n',mitoGSSGinliver);
 
 
 fclose(fid);
-open SteadystateMousePBPK.txt;   %this opens a window with the info in it
+open FinalState.txt;   %this opens a window with the info in it
   
